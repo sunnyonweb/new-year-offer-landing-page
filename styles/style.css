@@ -3,10 +3,9 @@
 .merriweather-normal {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+ 
 }
 
 /* hero section style */
@@ -14,7 +13,7 @@
 .hero-container{
     
     max-width: 100%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.543)), url(/resorcess/images/Banner\ Image.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.543)), url(./resorcess/images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
