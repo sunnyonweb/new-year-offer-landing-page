@@ -14,7 +14,7 @@
 .hero-container{
     
     max-width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.863), rgba(0, 0, 0, 0.285)), url(/resorcess/images/Banner\ Image.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.543)), url(/resorcess/images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 }
 
 .hero{
-    /* margin: 50px 140px 60px 140px; */
+
     text-align: center;
 }
 .hero-sub-title{
@@ -41,4 +41,223 @@
     font-weight: bolder;
     color: white;
     letter-spacing: 5px;
+}
+
+/* offer section style */
+
+.offer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-detail{
+    text-align: center;
+    font-weight: bold;
+    font-size: 88px;
+    color: #FF0000;
+}
+.offer-sub-title{
+    text-align: center;
+    color: #FF0000;
+    font-size: 24px;
+}
+.offer-title{
+    text-align: center;
+    font-size: 48px;
+}
+
+
+/* Welcome section style */
+
+.welcome-section{
+    max-width: 100%;
+    background-image: linear-gradient( to right,rgba(0, 0, 0, 0.975), rgba(0, 0, 0, 0)), url(/resorcess/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    margin: 130px 340px 120px 340px;
+    border-radius: 10px;
+    
+
+}
+.welcome{
+    display: flex;
+    align-items: center;
+}
+
+.welcome-title{
+    padding: 140px 0px 0px 180px;
+    color: white;
+    font-size: 84px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+}
+.welcome-description{
+    padding: 0px 0px 0px 180px;
+    color: white;
+    font-size: 26px;
+}
+
+.btn-section{
+    padding: 0px 0px 0px 220px;
+}
+
+.btn-w{
+    
+    background-color: #ff000000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.welcome-image{
+    height: 700px;
+    width: auto;
+    /* padding-right: 100px; */
+    position: relative;
+    top: 100px;
+    left: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* place section style */
+.place-section{
+   
+   height: 480px;
+   background:linear-gradient(to bottom, #fcb4e7a3, #ffffff00);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 100%;
+   border-radius: 10px;
+}
+.place-section{
+    margin: 120px 340px 120px 340px;
+}
+.place-title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.place-span{
+    color: #FF0000;
+}
+.btn{
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 12px;
+    border: none;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* new offer section style  */
+
+.new-offer{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 340px;
+    align-items: center;
+}
+.offer-section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-offer-sub-title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #FF0000;
+}
+.new-offer-title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+.new-offer-description{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+.offer-section-two{
+    
+    border: 16px solid red;
+    border-radius: 50%;
+    padding: 25px;
+    margin-left: 170px;
+    margin-right: 100px;
+}
+.new-offer-year{
+    font-size: 60px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.new-offer-year-description{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/* sale section style */
+
+
+.sale-section{
+    height: 1240px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    background-image: url(/resorcess/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+    margin: 60px 340px;
+    
+    
+}
+.sale-sub-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500px;
+    color: #FF0000;
+}
+.sale-title{
+    text-align: center;
+    font-size: 82px;
+    font-weight: bolder;
+    color: black;
+}
+.sale-text{
+    color: #FF0000;
+}
+.sale-description{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    color: black;
+}
+.box-img{
+    margin-top: 120px;
+}
+.discount-img{
+    position: absolute;
+    right: 80px;
 }
